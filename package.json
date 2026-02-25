@@ -5,6 +5,7 @@
     "tailwindcss": "^4.1.18"
   },
   "dependencies": {
-    "flowbite-react": "^0.12.17"
+    "flowbite-react": "^0.12.17",
+    "mongoose": "^9.2.2"
   }
 }
