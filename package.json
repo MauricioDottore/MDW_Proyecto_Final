@@ -1,5 +1,16 @@
 {
+  "name": "proyecto-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm install && npm install --prefix api && npm install --prefix client",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "node api/index.js",
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix api\""
+  },
   "dependencies": {
     "cookie-parser": "^1.4.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
   }
 }
