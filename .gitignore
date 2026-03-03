@@ -1,0 +1,29 @@
+# --- Dependencias (Lo más importante para bajar los 4k) ---
+**/node_modules/
+node_modules/
+
+# --- Entorno y Secretos ---
+**/.env
+.env
+*.local
+
+# --- Compilación y Salida ---
+**/dist/
+**/dist-ssr/
+**/build/
+**/out/
+
+# --- Logs de errores ---
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Archivos del Editor/Sistema ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.sw?
